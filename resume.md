@@ -38,18 +38,12 @@ Experienced IT professional with a proven track record of over two decades in so
 📅 1993 - 1997 | 📍 United States
 - Contributed to system analysis and development, showcasing strong analytical and problem-solving skills.
 
-## **Education:**
-
-### Bachelor of Science in Computer Science
-🏫 XYZ University | 📅 Graduation Year
-
 ## **Certifications:**
 - MS: Programming in C#
-- MCSA: SQL Server 2012
+- MCSA: SQL Server
 - MCSD: SharePoint Applications
-- MCDBA: Microsoft SQL Server 2000
-- MCSE1: Windows NT 4.0
-- Duolingo Spanish Fluency: Beginner and Elementary
+- MCDBA: Microsoft SQL Server
+- MCSE: Windows
 
 ## **Skills:**
 - Unit Testing
