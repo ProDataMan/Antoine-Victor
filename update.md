@@ -1,4 +1,4 @@
-![Profile Picture](AntoineBioPic.png)
+<img src="[https://github.com/ProDataMan/Antoine-Victor/blob/main/AntoineBioPic.png](https://github.com/ProDataMan/Antoine-Victor/blob/main/AntoineBioPic.png)" alt="Profile Picture" style="max-width:150px;"/>
 
 # Antoine Victor
 📍 *Seattle, WA* | 📧 antoine.victor@gmail.com | 🌐 [LinkedIn Profile](https://www.linkedin.com/in/antoinevictor)
