@@ -1,5 +1,4 @@
-<img src="https://raw.githubusercontent.com/ProDataMan/Antoine-Victor/main/AntoineBioPic.png" alt="Profile Picture" width="150" height="150">
-
+<img src="https://github.com/ProDataMan/Antoine-Victor/raw/main/AntoineBioPic.png" alt="Profile Picture" width="150" height="150">
 
 # Antoine Victor
 📍 *Seattle, WA* | 📧 antoine.victor@gmail.com | 🌐 [LinkedIn Profile](https://www.linkedin.com/in/antoinevictor)
@@ -59,7 +58,8 @@ Experienced IT professional with a proven track record of over two decades in so
 
 ---
 
-![Profile Picture](insert_your_picture_url_here)
+<img src="https://github.com/ProDataMan/Antoine-Victor/raw/main/AntoineBioPic.png" alt="Profile Picture" width="150" height="150">
+
 
 Antoine Victor is a seasoned IT professional with over two decades of hands-on experience in the software development industry. Based in Seattle, WA, Antoine has made significant contributions in various domains, specializing in .NET, SQL, and SharePoint Development & Administration. His journey in the tech world began in 1993, where he honed his skills as a Systems Analyst at Lockheed Martin, showcasing his knack for analytical problem-solving.
 
