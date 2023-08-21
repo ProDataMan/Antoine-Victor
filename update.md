@@ -1,4 +1,4 @@
-![Profile Picture](insert_your_picture_url_here)
+![Profile Picture](AntoineBioPic.png)
 
 # Antoine Victor
 📍 *Seattle, WA* | 📧 antoine.victor@gmail.com | 🌐 [LinkedIn Profile](https://www.linkedin.com/in/antoinevictor)
