@@ -1,7 +1,8 @@
-<img src="https://github.com/ProDataMan/Antoine-Victor/raw/main/AntoineBioPic.png" alt="Profile Picture" width="150" height="150">
 # Antoine Victor
 Author, Instructor, DevOps and Agile Evangelist 
 Software Delivery Pipleline Automation Enthusiast
+
+<img src="https://github.com/ProDataMan/Antoine-Victor/raw/main/AntoineBioPic.png" alt="Profile Picture" width="150" height="150">
 
 [Resume](https://github.com/ProDataMan/Antoine-Victor/blob/main/resume.md)
 
