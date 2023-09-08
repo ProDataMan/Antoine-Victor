@@ -39,6 +39,8 @@ Experienced IT professional with a proven track record of over two decades in so
 - Contributed to system analysis and development, showcasing strong analytical and problem-solving skills.
 
 ## **Certifications:**
+- Scrum Alliance: Certified Scrum Developer
+- Scrum Alliance: Certified Scrum Master
 - MS: Programming in C#
 - MCSA: SQL Server
 - MCSD: SharePoint Applications
@@ -46,8 +48,15 @@ Experienced IT professional with a proven track record of over two decades in so
 - MCSE: Windows
 
 ## **Skills:**
+- Scrum
+- Agile
+- DevOps
+- CI/CD
+- Automation
 - Unit Testing
 - Teamwork
+- AWS Cloud
+- Azure Cloud
 - Google Cloud Platform (GCP)
 - Team Management
 - Presentation Skills
