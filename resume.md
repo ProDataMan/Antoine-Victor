@@ -4,7 +4,7 @@
 📍 *Seattle, WA* | 📧 [Antoine.Victor](mailto://antoine.victor@gmail.com) | 🌐 [Linked In](https://www.linkedin.com/in/antoinevictor)
 
 ## **Professional Summary:**
-Experienced IT professional with a proven track record of over two decades in software development, training, and technical leadership. Specializing in .NET, SQL, and SharePoint Development & Administration. A dynamic presenter and educator skilled in delivering technical training and mentoring teams. Passionate about automating acceptance tests using Cucumber, Eclipse, and Maven.
+Experienced IT professional with a proven track record of over two decades in software development, training, and technical leadership. Currently specializing in Agile, CI/CD and DevOps with tools such as Jira, Jenkins, Maven, Cucumber, Selinium and AzureDevOps with a strong foundation in .NET, SQL, and SharePoint Development & Administration. A dynamic presenter and educator skilled in delivering technical training and mentoring teams. Passionate about automating acceptance tests using Cucumber, Eclipse, and Maven.
 
 ## **Experience:**
 
@@ -24,7 +24,7 @@ Experienced IT professional with a proven track record of over two decades in so
 
 ### Director of Technical Training Sales, Learn iT!
 📅 Apr 2011 - Aug 2011 | 📍 San Francisco, CA
-- Led a team in delivering technical training, focusing on teamwork, leadership, and effective communication.
+- Led a team in delivering technical training, focusing on teamwork, leadership, and effective communication.  Lunch and Learns with the Sales staff to bring them up to speed on new courseware, prerequisites and target audience.
 
 ### Contract Presenter, Global Knowledge
 📅 May 2004 - May 2011 | 📍 United States
