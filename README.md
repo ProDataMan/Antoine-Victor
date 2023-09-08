@@ -1,5 +1,5 @@
 # Antoine Victor
-Author, Instructor, DevOps and Agile Evangelist 
+Author, Instructor, DevOps and Agile Evangelist, 
 Software Delivery Pipleline Automation Enthusiast
 
 [Resume](https://github.com/ProDataMan/Antoine-Victor/blob/main/resume.md)
