@@ -2,7 +2,7 @@ Antoine Victor is a seasoned IT professional with over two decades of hands-on e
 
 Since 2002, Antoine has been at the forefront of Professional Data Management, leading a group of MS Certified Trainers and spearheading a wide range of initiatives. His role involves managing training programs, inbound marketing campaigns, and hands-on labs to empower learners and enhance their skills. Antoine's commitment to excellence has earned him endorsements in areas like Scrum, Pipeline Automation, Unit Testing, Teamwork, and Leadership.
 
-Throughout his career, Antoine has showcased his expertise by delivering presentations, seminars, and training sessions. His ability to convey complex technical concepts in an engaging and comprehensible manner has made him a sought-after Contract Presenter. His extensive experience includes collaborating with esteemed organizations like QuickStart Intelligence and Global Knowledge, ASPE.
+Throughout his career, Antoine has showcased his expertise by delivering presentations, seminars, and training sessions. His ability to convey complex technical concepts in an engaging and comprehensible manner has made him a sought-after Contract Presenter. His extensive experience includes collaborating with esteemed organizations like QuickStart Intelligence, Global Knowledge and ASPE.
 
 In the dynamic realm of technology, Antoine remains at the forefront of innovation. He is passionate about automating delivery pipelines with Ansible, Jenkins and AzureDevOps, automating acceptance tests using Cucumber, Eclipse, and Maven. His blog post, "Add Cucumber Acceptance Tests to a Maven Project," provides valuable insights into this process, showcasing his commitment to sharing knowledge and empowering fellow professionals.
 
