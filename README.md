@@ -9,7 +9,7 @@ Software Delivery Pipleline Automation Enthusiast
 [Available Courseware](https://github.com/ProDataMan/Course-Outlines/blob/main/readme.md)
 
 ---
-Antoine Victor is a seasoned IT professional with over two decades of hands-on experience in the software development industry. Based in Seattle, WA, Antoine has made significant contributions in various domains, currently specializing in Agile, CI/CD and DevOps with tools such as Jira, Jenkins, Maven, Cucumber, Selinium and AzureDevOps with a strong foundation .NET, SQL, and SharePoint Development & Administration. His journey in the tech world began as a Systems Analyst at Lockheed Martin, showcasing his knack for analytical problem-solving.
+Antoine Victor is a seasoned IT professional with over two decades of hands-on experience in the software development industry. Based in Seattle, WA, Antoine has made significant contributions in various domains, currently specializing in Agile, CI/CD and DevOps with tools such as Jira, Jenkins, Maven, Cucumber, Selinium and AzureDevOps with a strong foundation in .NET, SQL, and SharePoint Development & Administration. His journey in the tech world began as a Systems Analyst at Lockheed Martin, showcasing his knack for analytical problem-solving.
 
 Since 2002, Antoine has been at the forefront of Professional Data Management, leading a group of MS Certified Trainers and spearheading a wide range of initiatives. His role involves managing training programs, inbound marketing campaigns, and hands-on labs to empower learners and enhance their skills. Antoine's commitment to excellence has earned him endorsements in areas like Scrum, Pipeline Automation, Unit Testing, Teamwork, and Leadership.
 
