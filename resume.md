@@ -10,8 +10,8 @@ Experienced IT professional with a proven track record of over two decades in so
 
 ### President, Professional Data Management
 📅 May 2002 - Present | 📍 Seattle, WA
-- Managed a team of MS Certified Trainers specializing in .NET, SQL, and SharePoint Development & Administration.
-- Oversee inbound marketing initiatives, including authoring blogs, whitepapers, and courseware.
+- Manage a team of contract trainers with various skill sets and certifications including MS Certified Trainers specializing in .NET, SQL, and SharePoint Development & Administration as well as Certified Scrum Developers and Scrum Masters.
+- Oversee inbound marketing initiatives, including authoring blogs, whitepapers, courseware and Amazon KDP.
 - Lead hands-on labs and demos to enhance learning and promote the ProDataMan portal.
 
 ### Contract Presenter, My Tech Fuel
