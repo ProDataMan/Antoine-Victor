@@ -95,7 +95,7 @@ Co-creating and delivering a six-course Swift education program through the Appl
 
 | Category | Skills |
 |----------|--------|
-| Languages | Swift (2023 → Advanced), SQL, C#, Java, Go |
+| Languages | Swift (2023 → Advanced), SQL, C#, Java |
 | Swift Frameworks | Vapor 4, Swift-OpenAPI Generator, Fluent ORM, Swift Testing, ServiceLifecycle, SwiftLog |
 | Server & API | REST, OpenAPI 3.1, Docker/Compose, PostgreSQL, SQLite, OpenTelemetry, JWT |
 | AI & Agentic Tools | Claude Code, MCP Agents, GenAI development, Prompt Engineering |
