@@ -1,25 +1,42 @@
 # Antoine Victor
-Author, Instructor, DevOps and Agile Evangelist, 
-Software Delivery Pipleline Automation Enthusiast
+**Swift Curriculum Developer & Instructor · Technical Trainer · Author · DevOps & Agile Evangelist**
 
-[Resume](https://github.com/ProDataMan/Antoine-Victor/blob/main/resume.md)
-
-[Bio](https://github.com/ProDataMan/Antoine-Victor/blob/main/bio.md)
-
-[Available Courseware](https://github.com/ProDataMan/Course-Outlines/blob/main/readme.md)
-
----
-Antoine Victor is a seasoned IT professional with over two decades of hands-on experience in the software development industry. Based in Seattle, WA, Antoine has made significant contributions in various domains, currently specializing in AI Prompt Engineering, Agile, CI/CD and DevOps with tools such as Jira, Jenkins, Maven, Cucumber, Selinium and AzureDevOps with a strong foundation in .NET, SQL, and SharePoint Development & Administration. His journey in the tech world began as a Systems Analyst at Lockheed Martin, showcasing his knack for analytical problem-solving.
-
-Since 2002, Antoine has been at the forefront of Professional Data Management, leading a group of MS Certified Trainers and spearheading a wide range of initiatives. His role involves managing training programs, inbound marketing campaigns, and hands-on labs to empower learners and enhance their skills. Antoine's commitment to excellence has earned him endorsements in areas like Scrum, Pipeline Automation, Unit Testing, Teamwork, and Leadership.
-
-Throughout his career, Antoine has showcased his expertise by developing content and delivering presentations, seminars, and training sessions. His ability to convey complex technical concepts in an engaging and comprehensible manner has made him a sought-after Contract Presenter. His extensive experience includes collaborating with esteemed organizations like QuickStart Intelligence and Global Knowledge, ASPE.
-
-In the dynamic realm of technology, Antoine remains at the forefront of innovation. He is passionate about automating delivery pipelines with Ansible, Jenkins and AzureDevOps, automating acceptance tests using Cucumber, Eclipse, and Maven. His blog post, "Add Cucumber Acceptance Tests to a Maven Project," provides valuable insights into this process, showcasing his commitment to sharing knowledge and empowering fellow professionals.
-
-Antoine's dedication to professional growth is evident through his impressive array of certifications, including MS: Programming in C#, MCSA: SQL Server, MCSD: SharePoint Applications, and more. Beyond his technical prowess, Antoine is a skilled leader, known for his teamwork, presentation skills, and oral communication abilities.
-
-In his free time, Antoine continues to explore new horizons in technology and education, making a lasting impact on the industry and nurturing the next generation of tech enthusiasts on social media platforms from YouTube to Linked In and Instagram.
+📍 Seattle, WA | 📧 [Antoine.Victor@gmail.com](mailto:Antoine.Victor@gmail.com) | 🌐 [ProDataMan.com](http://www.ProDataMan.com) | 💼 [LinkedIn](https://www.linkedin.com/in/antoinevictor)
 
 ---
 
+[📄 Resume (HTML)](https://prodataman.github.io/Antoine-Victor/) &nbsp;|&nbsp; [📝 Resume (Markdown)](https://github.com/ProDataMan/Antoine-Victor/blob/main/resume.md) &nbsp;|&nbsp; [📘 Resume (Word)](https://github.com/ProDataMan/Antoine-Victor/raw/main/Antoine_Victor_Resume.docx) &nbsp;|&nbsp; [🧑 Bio](https://github.com/ProDataMan/Antoine-Victor/blob/main/bio.md)
+
+---
+
+## Cover Letter
+
+To Whom It May Concern,
+
+I am Antoine Victor — a technical trainer, curriculum developer, and software educator with over 20 years of experience turning complex technology into clear, engaging learning experiences. I am reaching out to express my interest in opportunities where deep technical knowledge, instructional design excellence, and a genuine passion for developer education can make an immediate impact.
+
+For the past several years I have been working under contract with **BaySide Solutions at Apple**, contributing to the **ASE Swift Ecosystem Education** team. In that role I have co-designed and delivered a comprehensive Swift education program through Apple's internal PenPal learning platform. My contributions span the full spectrum of instructional work:
+
+- **Designed PantryChef** — a full-stack production application (Vapor 4, SwiftUI, OpenAPI 3.1, Fluent/PostgreSQL, JWT, Docker Compose) purpose-built as the lab vehicle for the Swift for Server Developers course, where students ship real code into a live open-source codebase and graduate as verified contributors.
+- **Authored the Lab Realism Manifesto** — a pedagogical framework I wrote that mandates all course labs produce real, shippable features in production applications rather than contrived exercises. This standard has been adopted for all future PenPal courses.
+- **Updated and delivered** Swift Language Fundamentals, Swift Intermediate, and Swift Server Fundamentals to multiple cohorts of Apple engineers — making major content revisions, reformatting labs, and ensuring each course meets production-quality standards.
+- **Co-designed** Swift for Server Developers and **co-authored** Swift Concurrency, both currently in active development.
+- **Designed and facilitated** the Agentic Development Workshop — a hands-on AI-assisted development session that drew over 1,000 registrants and 500+ live attendees at its debut, then ran 5 additional times with 80–400 attendees per session.
+
+Before my Apple engagement, I spent over two decades building and delivering high-stakes technical training for organizations including **NASA, Chase, ADP, Bank of America**, and hundreds of enterprise clients through Professional Data Management (my company, founded 2002). I have presented at Microsoft World Wide Partner Conferences to audiences of up to 1,200 people, conducted .NET evangelism college tours across 27 cities, and delivered Scrum and DevOps certification programs for clients across diverse industries.
+
+What distinguishes my work is a commitment to **realism over simplicity** — I believe the best way to teach a technology is to build something real with it. Every course I touch is designed so learners leave with genuine skills they can apply immediately, not just familiarity with toy examples.
+
+I bring:
+- Deep expertise in Swift, server-side development, and Apple's developer ecosystem
+- Proven ability to design, build, and deliver curriculum at scale
+- A track record of creating pedagogical frameworks adopted by entire programs
+- 20+ years of enterprise training across SQL, .NET, DevOps, Agile, and AI
+- The ability to engage audiences from individual developers to rooms of 1,200+
+
+I would welcome the opportunity to discuss how my experience can serve your team or organization.
+
+Warm regards,
+
+**Antoine Victor**
+Antoine.Victor@gmail.com | 206-409-0421 | [www.ProDataMan.com](http://www.ProDataMan.com)
