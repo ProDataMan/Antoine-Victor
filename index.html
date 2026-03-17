@@ -8,82 +8,62 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.45;
     color: #1a1a1a;
-    background: #f5f5f7;
-    padding: 24px 16px;
+    background: #f2f2f7;
+    padding: 20px 16px;
   }
   .page {
-    max-width: 780px;
+    max-width: 720px;
     margin: 0 auto;
     background: #fff;
-    padding: 36px 44px;
-    border-radius: 10px;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.09);
+    padding: 28px 36px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
 
-  /* ── Header ── */
-  .header {
-    border-bottom: 2px solid #0071e3;
-    padding-bottom: 12px;
-    margin-bottom: 14px;
-  }
-  .header h1 { font-size: 24px; font-weight: 700; color: #0071e3; }
-  .header .contact {
-    margin-top: 3px;
-    font-size: 12px;
-    color: #555;
-  }
+  /* Header */
+  .header { border-bottom: 2px solid #0071e3; padding-bottom: 10px; margin-bottom: 12px; }
+  .header h1 { font-size: 21px; font-weight: 700; color: #0071e3; }
+  .header .contact { margin-top: 2px; font-size: 11px; color: #666; }
   .header .contact a { color: #0071e3; text-decoration: none; }
 
-  /* ── Section ── */
-  .section { margin-bottom: 14px; }
+  /* Sections */
+  .section { margin-bottom: 12px; }
   .section-title {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1.1px;
-    text-transform: uppercase;
-    color: #0071e3;
-    border-bottom: 1px solid #d2e4f9;
-    padding-bottom: 3px;
-    margin-bottom: 8px;
+    font-size: 9px; font-weight: 700; letter-spacing: 1px;
+    text-transform: uppercase; color: #0071e3;
+    border-bottom: 1px solid #d2e4f9; padding-bottom: 2px; margin-bottom: 7px;
   }
 
-  /* ── Summary ── */
-  .summary p { font-size: 12.5px; color: #333; }
+  /* Summary */
+  .summary p { font-size: 11.5px; color: #333; line-height: 1.5; }
 
-  /* ── Jobs ── */
-  .job { margin-bottom: 10px; }
-  .job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 3px;
-  }
-  .job-left { flex: 1; }
-  .job-company { font-weight: 700; font-size: 13px; color: #0071e3; }
-  .job-title   { font-size: 12.5px; color: #1a1a1a; }
-  .job-dates   { font-size: 11px; color: #777; white-space: nowrap; margin-left: 12px; }
-  .job ul      { margin-left: 16px; }
-  .job li      { font-size: 12.5px; color: #333; margin-bottom: 2px; }
+  /* Jobs */
+  .job { margin-bottom: 8px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+  .job-company { font-weight: 700; font-size: 12px; color: #0071e3; }
+  .job-title   { font-size: 11.5px; color: #333; }
+  .job-dates   { font-size: 10.5px; color: #888; white-space: nowrap; margin-left: 10px; }
+  .job ul { margin-left: 14px; }
+  .job li { font-size: 11.5px; color: #333; margin-bottom: 1.5px; }
 
-  /* ── Two-col bottom ── */
-  .two-col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 28px;
-  }
-  .skills-list { font-size: 12px; color: #333; }
-  .skills-list dt { font-weight: 600; color: #1a1a1a; float: left; margin-right: 4px; }
-  .skills-list dd { margin: 0 0 3px 0; color: #444; }
-  .cert-list    { font-size: 12px; color: #333; line-height: 1.7; }
+  /* Skills row */
+  .skills-row { display: flex; flex-wrap: wrap; gap: 3px 0; }
+  .skill-item { font-size: 11.5px; color: #333; white-space: nowrap; }
+  .skill-item b { color: #1a1a1a; }
+  .skill-item::after { content: " ·"; color: #bbb; margin: 0 6px; }
+  .skill-item:last-child::after { content: ""; }
+
+  /* Certs */
+  .certs { font-size: 11.5px; color: #333; margin-top: 5px; }
+  .certs b { color: #1a1a1a; }
 </style>
 </head>
 <body>
 <div class="page">
 
-  <!-- HEADER -->
   <div class="header">
     <h1>Antoine Victor</h1>
     <div class="contact">
@@ -94,101 +74,84 @@
     </div>
   </div>
 
-  <!-- SUMMARY -->
   <div class="section summary">
     <div class="section-title">Summary</div>
-    <p>Technical trainer and curriculum developer with 20+ years designing and delivering high-impact developer education. Currently contracting with BaySide Solutions at Apple, co-designing Swift courses and authoring the Lab Realism Manifesto — a pedagogical framework adopted across Apple's Swift education program. Expertise spans Swift server-side development, Agile, DevOps, CI/CD, SQL Server, and AI-assisted development. Known for turning complex technology into clear, engaging learning experiences at every scale.</p>
+    <p>Technical trainer and curriculum developer with 20+ years designing and delivering high-impact developer education. Currently contracting with BaySide Solutions at Apple, co-designing Swift courses and authoring the Lab Realism Manifesto — a pedagogical framework adopted across Apple's Swift education program. Expertise spans Swift server-side development, Agile, DevOps, CI/CD, SQL Server, and AI-assisted development.</p>
   </div>
 
-  <!-- EXPERIENCE -->
   <div class="section">
     <div class="section-title">Experience</div>
 
     <div class="job">
       <div class="job-header">
-        <div class="job-left">
-          <span class="job-company">BaySide Solutions &nbsp;·&nbsp; Apple — ASE Swift Ecosystem Education</span><br>
-          <span class="job-title">Swift Curriculum Developer &amp; Instructor</span>
+        <div>
+          <span class="job-company">BaySide Solutions &nbsp;·&nbsp; Apple — ASE Swift Ecosystem Education</span>
+          <span class="job-title"> &nbsp;·&nbsp; Swift Curriculum Developer &amp; Instructor</span>
         </div>
-        <div class="job-dates">2025 – Present &nbsp;(Swift work began 2023)</div>
+        <span class="job-dates">2025 – Present (Swift work began 2023)</span>
       </div>
       <ul>
-        <li>Co-designed and delivered Swift developer education program on Apple's PenPal platform; updated and taught Swift Language Fundamentals, Swift Intermediate, and Swift Server Fundamentals across multiple cohorts of Apple engineers.</li>
-        <li>Designed <strong>PantryChef</strong> — a full-stack Swift application (Vapor, SwiftUI, OpenAPI, Fluent/PostgreSQL, Docker) built as the hands-on lab vehicle for the Swift for Server Developers course, where students contribute real code to an open-source codebase.</li>
-        <li>Authored the <strong>Lab Realism Manifesto</strong> — a pedagogical framework mandating that all course labs produce real, shippable features rather than contrived exercises; adopted as the design standard across the program.</li>
-        <li>Co-authored Swift Concurrency and co-designed Swift for Server Developers courses, both currently in development.</li>
-        <li>Designed and facilitated the Agentic Development Workshop — debut session drew 1,000+ registrants (500+ live); repeated 5 additional times with 80–400 attendees each.</li>
+        <li>Co-designed and delivered Swift education on Apple's PenPal platform; updated and taught Language Fundamentals, Swift Intermediate, and Swift Server Fundamentals across multiple cohorts.</li>
+        <li>Designed <strong>PantryChef</strong> — full-stack Swift lab app (Vapor, SwiftUI, OpenAPI, Fluent/PostgreSQL, Docker) where students ship real code to an open-source codebase.</li>
+        <li>Authored the <strong>Lab Realism Manifesto</strong> — framework mandating all labs produce real, shippable features; adopted as the design standard across the program.</li>
+        <li>Co-authored Swift Concurrency and co-designed Swift for Server Developers (both in development); designed Agentic Dev Workshop — debut 1,000+ registrants, 500+ live; repeated 5× with 80–400 attendees.</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <div class="job-left">
-          <span class="job-company">Professional Data Management</span><br>
-          <span class="job-title">President</span>
+        <div>
+          <span class="job-company">Professional Data Management</span>
+          <span class="job-title"> &nbsp;·&nbsp; President</span>
         </div>
-        <div class="job-dates">May 2002 – Present</div>
+        <span class="job-dates">May 2002 – Present</span>
       </div>
       <ul>
-        <li>Delivered technical training for NASA, Chase, ADP, and Bank of America; authored DevOps, CI/CD, and Certified Scrum Developer courseware.</li>
-        <li>Presented at Microsoft World Wide Partner Conferences hosting hands-on labs for up to 1,200 participants daily; conducted .NET college tours across 27 cities (650 students/session).</li>
-        <li>Delivered AI workshops at AfroTech for Bank of America leadership; led train-the-trainer programs improving instructor performance at client organizations.</li>
+        <li>Delivered training for NASA, Chase, ADP, and Bank of America; authored DevOps, CI/CD, and Certified Scrum Developer courseware; led train-the-trainer programs.</li>
+        <li>Presented at Microsoft World Wide Partner Conferences (up to 1,200 participants/day); .NET college tours across 27 cities; AI workshops at AfroTech for Bank of America leadership.</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <div class="job-left">
-          <span class="job-company">QuickStart Intelligence</span><br>
-          <span class="job-title">Instructor</span>
+        <div>
+          <span class="job-company">QuickStart Intelligence</span>
+          <span class="job-title"> &nbsp;·&nbsp; Instructor</span>
         </div>
-        <div class="job-dates">July 2011 – November 2014</div>
+        <span class="job-dates">Jul 2011 – Nov 2014</span>
       </div>
       <ul>
-        <li>Delivered top-rated instructor-led training on .NET, SQL Server, and SharePoint; revamped course materials to improve learner engagement and evaluation scores.</li>
+        <li>Top-rated training on .NET, SQL Server, and SharePoint; revamped courseware for improved engagement.</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <div class="job-left">
-          <span class="job-company">Netdesk</span><br>
-          <span class="job-title">Development Operations Manager</span>
+        <div>
+          <span class="job-company">Netdesk</span>
+          <span class="job-title"> &nbsp;·&nbsp; Development Operations Manager</span>
         </div>
-        <div class="job-dates">1997 – 2002</div>
+        <span class="job-dates">1997 – 2002</span>
       </div>
       <ul>
-        <li>Managed a team of developer instructors and designed training programs aligned with evolving industry standards.</li>
+        <li>Managed developer instructors and designed training programs aligned with evolving industry standards.</li>
       </ul>
     </div>
   </div>
 
-  <!-- SKILLS + CERTS -->
   <div class="section">
     <div class="section-title">Skills &amp; Certifications</div>
-    <div class="two-col">
-      <div>
-        <dl class="skills-list">
-          <dt>Swift &amp; Server:</dt>
-          <dd>Vapor 4, OpenAPI, Fluent ORM, Swift Testing, Docker, PostgreSQL, JWT</dd>
-          <dt>AI &amp; Agentic:</dt>
-          <dd>Claude Code, MCP Agents, Prompt Engineering, GenAI-assisted development</dd>
-          <dt>DevOps:</dt>
-          <dd>Azure DevOps, Jenkins, Maven, Selenium, GitHub Actions</dd>
-          <dt>Languages:</dt>
-          <dd>Swift, SQL, C#, Java</dd>
-          <dt>Other:</dt>
-          <dd>Agile, Scrum, CI/CD, Infrastructure Automation, DocC, LMS</dd>
-        </dl>
-      </div>
-      <div class="cert-list">
-        <strong>Certifications</strong><br>
-        Certified Scrum Developer<br>
-        Certified Scrum Master<br>
-        Certified Product Owner<br>
-        Microsoft: C#, SQL Server, SharePoint<br>
-        MCSE &nbsp;·&nbsp; MCDBA
-      </div>
+    <div class="skills-row">
+      <span class="skill-item"><b>Swift &amp; Server:</b> Vapor 4, OpenAPI, Fluent ORM, Swift Testing, Docker, PostgreSQL, JWT</span>
+      <span class="skill-item"><b>AI &amp; Agentic:</b> Claude Code, MCP Agents, Prompt Engineering</span>
+      <span class="skill-item"><b>DevOps:</b> Azure DevOps, Jenkins, Maven, Selenium, GitHub Actions</span>
+      <span class="skill-item"><b>Languages:</b> Swift, SQL, C#, Java</span>
+      <span class="skill-item"><b>Other:</b> Agile, Scrum, CI/CD, DocC, LMS</span>
+    </div>
+    <div class="certs">
+      <b>Certifications:</b>
+      Certified Scrum Developer &nbsp;·&nbsp; Scrum Master &nbsp;·&nbsp; Product Owner &nbsp;·&nbsp;
+      Microsoft: C#, SQL Server, SharePoint &nbsp;·&nbsp; MCSE &nbsp;·&nbsp; MCDBA
     </div>
   </div>
 
