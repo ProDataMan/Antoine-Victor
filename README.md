@@ -17,7 +17,7 @@ I am Antoine Victor — a technical trainer, curriculum developer, and software 
 
 For the past several years I have been working under contract with **BaySide Solutions at Apple**, contributing to the **ASE Swift Ecosystem Education** team. In that role I have co-designed and delivered a comprehensive Swift education program through Apple's internal PenPal learning platform. My contributions span the full spectrum of instructional work:
 
-- **Designed PantryChef** — a full-stack production application (Vapor 4, SwiftUI, OpenAPI 3.1, Fluent/PostgreSQL, JWT, Docker Compose) purpose-built as the lab vehicle for the Swift for Server Developers course, where students ship real code into a live open-source codebase and graduate as verified contributors.
+- **Designed PantryChef** — a full-stack Swift application (Vapor 4, SwiftUI, OpenAPI 3.1, Fluent/PostgreSQL, JWT, Docker Compose) currently under development as the lab vehicle for the Swift for Server Developers course. Students will ship real code into the open-source codebase and graduate as verified contributors upon delivery.
 - **Authored the Lab Realism Manifesto** — a pedagogical framework I wrote that mandates all course labs produce real, shippable features in production applications rather than contrived exercises. This standard has been adopted for all future PenPal courses.
 - **Updated and delivered** Swift Language Fundamentals, Swift Intermediate, and Swift Server Fundamentals to multiple cohorts of Apple engineers — making major content revisions, reformatting labs, and ensuring each course meets production-quality standards.
 - **Co-designed** Swift for Server Developers and **co-authored** Swift Concurrency, both currently in active development.
