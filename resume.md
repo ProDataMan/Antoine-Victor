@@ -7,7 +7,7 @@
 
 ## Professional Summary
 
-Technical trainer and curriculum developer with 20+ years of experience delivering high-impact training and innovative course materials. Expert in leveraging Generative AI for rapid content creation, engaging presentations, and transforming technical content into accessible learning experiences. Since 2023, has developed deep expertise in Swift — co-designing courses, authoring the **Lab Realism Manifesto**, and designing the full-stack **PantryChef** application as a production lab vehicle, all under contract with BaySide Solutions at Apple. Proficient in MS SQL Server, Agile, DevOps, and Infrastructure Automation.
+Technical trainer and curriculum developer with 20+ years of experience delivering high-impact training and innovative course materials. Expert in leveraging Generative AI for rapid content creation, engaging presentations, and transforming technical content into accessible learning experiences. Since 2023, has developed deep expertise in Swift — co-designing courses, authoring the **Lab Realism Manifesto**, and designing the **PantryChef** application as a lab vehicle (currently under development), all under contract with BaySide Solutions at Apple. Proficient in MS SQL Server, Agile, DevOps, and Infrastructure Automation.
 
 ---
 
@@ -20,7 +20,7 @@ Co-creating and delivering a six-course Swift education program through the Appl
 
 - **Swift Language Fundamentals (101)** — Made major content updates, reformatting, and lab instruction revisions to this 9-hour, 3-session instructor-led course; delivered to multiple cohorts. `UPDATED & DELIVERED`
 - **Swift for Server Developers (101)** — Co-designed this 6-hour course teaching Swift essentials through server-focused PantryChef labs (HTTP clients, caching, actor concurrency, generic repositories, async error handling). Currently under development; not yet delivered. `CO-DESIGNED · IN DEVELOPMENT`
-- **PantryChef Application** — Designed this full-stack Swift application (Vapor 4, SwiftUI iOS app, OpenAPI 3.1, Fluent/PostgreSQL, JWT, Amazon Fresh, Docker Compose) as the production lab vehicle for Swift for Server Developers. `DESIGNED`
+- **PantryChef Application** — Designed this full-stack Swift application (Vapor 4, SwiftUI iOS app, OpenAPI 3.1, Fluent/PostgreSQL, JWT, Amazon Fresh, Docker Compose) as the lab vehicle for Swift for Server Developers (currently under development). `DESIGNED`
 - **Lab Realism Manifesto** — Authored the pedagogical framework requiring all PenPal course labs to produce real, shippable features in a production application; adopted as the design standard for all future courses. `AUTHORED`
 - **Swift Intermediate (201)** — Made major updates, reformatting, and lab instruction revisions to this 6-hour course on extensions, generics, protocol-oriented design, value vs. reference semantics, and advanced closure patterns; delivered to multiple cohorts. `UPDATED & DELIVERED`
 - **Swift Concurrency (201)** — Co-authored and made major updates and reformatting to this 8–12 hour course on async/await, tasks, actor isolation, AsyncSequence, async let, and task groups. Currently under development; not yet delivered. `CO-AUTHORED · IN DEVELOPMENT`
@@ -61,7 +61,7 @@ Co-creating and delivering a six-course Swift education program through the Appl
 |--------|------|--------|-----------|
 | 101 — Swift Language Fundamentals | Major updates, reformatting & delivery | GA | ✅ Multiple cohorts |
 | 101 — Swift for Server Developers | Co-designer | In Development | 🚧 Not yet delivered |
-| PantryChef App | Designer | Production | ✅ Lab vehicle |
+| PantryChef App | Designer | In Development | 🚧 Lab vehicle (in dev) |
 | Lab Realism Manifesto | Author | Adopted | ✅ All future courses |
 | 201 — Swift Intermediate | Major updates, reformatting & delivery | GA | ✅ Multiple cohorts |
 | 201 — Swift Concurrency | Co-author, major updates | In Development | 🚧 Not yet delivered |
@@ -74,7 +74,7 @@ Co-creating and delivering a six-course Swift education program through the Appl
 
 - **Built Apple's Swift education curriculum** — co-authored and updated 6 production courses (40+ hours of content) on the PenPal platform.
 - **Delivered 4 Swift courses across multiple cohorts** to Apple engineering teams (Language Fundamentals, Swift Intermediate, Swift Server Fundamentals, Agentic Development Workshop).
-- **Designed PantryChef** — full-stack Swift production app (Vapor, SwiftUI, OpenAPI, Fluent/PostgreSQL, Docker) as the lab vehicle where students ship real code.
+- **Designed PantryChef** — full-stack Swift lab app (Vapor, SwiftUI, OpenAPI, Fluent/PostgreSQL, Docker) currently under development as the lab vehicle for Swift for Server Developers.
 - **Authored the Lab Realism Manifesto** — adopted as the design standard for all PenPal courses.
 - **Agentic Development Workshop** — debut reached 1,000+ registrants (500+ live); repeated 5 more times with 80–400 attendees each.
 - Delivered AI workshops at AfroTech for Bank of America leadership.
