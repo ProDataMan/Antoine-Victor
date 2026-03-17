@@ -9,67 +9,75 @@
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 13px;
-    line-height: 1.55;
+    line-height: 1.5;
     color: #1a1a1a;
     background: #f5f5f7;
-    padding: 32px 16px;
+    padding: 24px 16px;
   }
   .page {
-    max-width: 820px;
+    max-width: 780px;
     margin: 0 auto;
     background: #fff;
-    border-radius: 12px;
-    padding: 48px 52px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 36px 44px;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.09);
   }
-  .header { border-bottom: 2.5px solid #0071e3; padding-bottom: 18px; margin-bottom: 22px; }
-  .header h1 { font-size: 28px; font-weight: 700; color: #0071e3; letter-spacing: -0.5px; }
-  .header .location { font-size: 13px; color: #555; margin-top: 3px; }
-  .header .contact { margin-top: 6px; font-size: 12.5px; color: #333; }
+
+  /* ── Header ── */
+  .header {
+    border-bottom: 2px solid #0071e3;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+  }
+  .header h1 { font-size: 24px; font-weight: 700; color: #0071e3; }
+  .header .contact {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #555;
+  }
   .header .contact a { color: #0071e3; text-decoration: none; }
-  .section { margin-bottom: 24px; }
+
+  /* ── Section ── */
+  .section { margin-bottom: 14px; }
   .section-title {
-    font-size: 11px; font-weight: 700; letter-spacing: 1.2px;
-    text-transform: uppercase; color: #0071e3;
-    border-bottom: 1px solid #d2e4f9; padding-bottom: 5px; margin-bottom: 12px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: #0071e3;
+    border-bottom: 1px solid #d2e4f9;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
   }
-  .competencies { display: flex; flex-wrap: wrap; gap: 7px; }
-  .tag { background: #e8f1fc; color: #0058b0; border-radius: 20px; padding: 4px 12px; font-size: 12px; font-weight: 500; }
-  .tag.new { background: #e8fce8; color: #1a7a1a; }
-  .job { margin-bottom: 20px; }
-  .job-header { display: flex; justify-content: space-between; align-items: flex-start; }
-  .job-title { font-weight: 700; font-size: 14px; color: #1a1a1a; }
-  .job-company { font-weight: 600; font-size: 13.5px; color: #0071e3; }
-  .job-dates { font-size: 12px; color: #777; white-space: nowrap; margin-left: 12px; margin-top: 2px; }
-  .job ul { margin: 8px 0 0 18px; }
-  .job li { margin-bottom: 4px; color: #333; }
-  .new-badge {
-    background: #e8fce8; color: #1a7a1a; border-radius: 4px;
-    padding: 1px 6px; font-size: 10px; font-weight: 600; margin-left: 6px; vertical-align: middle;
+
+  /* ── Summary ── */
+  .summary p { font-size: 12.5px; color: #333; }
+
+  /* ── Jobs ── */
+  .job { margin-bottom: 10px; }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
   }
-  .upd-badge {
-    background: #e8f1fc; color: #0058b0; border-radius: 4px;
-    padding: 1px 6px; font-size: 10px; font-weight: 600; margin-left: 6px; vertical-align: middle;
+  .job-left { flex: 1; }
+  .job-company { font-weight: 700; font-size: 13px; color: #0071e3; }
+  .job-title   { font-size: 12.5px; color: #1a1a1a; }
+  .job-dates   { font-size: 11px; color: #777; white-space: nowrap; margin-left: 12px; }
+  .job ul      { margin-left: 16px; }
+  .job li      { font-size: 12.5px; color: #333; margin-bottom: 2px; }
+
+  /* ── Two-col bottom ── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 28px;
   }
-  .courses { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
-  .course-card { border: 1px solid #e0e8f5; border-radius: 8px; padding: 12px 16px; background: #fafcff; }
-  .course-card.new-course { border-color: #b8ddb8; background: #f4fcf4; }
-  .course-card.upd-course { border-color: #b8d0f5; background: #f0f5ff; }
-  .course-card .course-name { font-weight: 700; color: #0058b0; font-size: 13px; }
-  .course-card.new-course .course-name { color: #1a7a1a; }
-  .course-card .course-meta { font-size: 11.5px; color: #666; margin-top: 2px; margin-bottom: 5px; font-style: italic; }
-  .course-card p { font-size: 12.5px; color: #444; }
-  .new-label { display: inline-block; background: #1a7a1a; color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 10px; font-weight: 700; margin-left: 8px; vertical-align: middle; }
-  .upd-label { display: inline-block; background: #0071e3; color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 10px; font-weight: 700; margin-left: 8px; vertical-align: middle; }
-  .skills-grid { display: grid; grid-template-columns: 140px 1fr; gap: 6px 16px; }
-  .skill-label { font-weight: 600; color: #333; font-size: 12.5px; }
-  .skill-value { color: #444; font-size: 12.5px; }
-  .achievements ul, .community ul { margin-left: 18px; }
-  .achievements li, .community li { margin-bottom: 5px; color: #333; }
-  .cert-list { display: flex; flex-wrap: wrap; gap: 7px; }
-  .cert-tag { background: #f0f0f5; color: #333; border-radius: 6px; padding: 4px 10px; font-size: 12px; }
-  .divider { height: 1px; background: #e8e8ea; margin: 6px 0 16px; }
-  .status-dev { display: inline-block; background: #fff3e0; color: #8a4800; border-radius: 4px; padding: 1px 7px; font-size: 10px; font-weight: 700; margin-left: 6px; vertical-align: middle; }
+  .skills-list { font-size: 12px; color: #333; }
+  .skills-list dt { font-weight: 600; color: #1a1a1a; float: left; margin-right: 4px; }
+  .skills-list dd { margin: 0 0 3px 0; color: #444; }
+  .cert-list    { font-size: 12px; color: #333; line-height: 1.7; }
 </style>
 </head>
 <body>
@@ -78,239 +86,110 @@
   <!-- HEADER -->
   <div class="header">
     <h1>Antoine Victor</h1>
-    <div class="location">Seattle, WA</div>
     <div class="contact">
-      Antoine.Victor@gmail.com &nbsp;|&nbsp; 206-409-0421 &nbsp;|&nbsp;
-      <a href="http://www.ProDataMan.com">www.ProDataMan.com</a>
+      Seattle, WA &nbsp;·&nbsp;
+      <a href="mailto:Antoine.Victor@gmail.com">Antoine.Victor@gmail.com</a> &nbsp;·&nbsp;
+      206-409-0421 &nbsp;·&nbsp;
+      <a href="http://www.ProDataMan.com">ProDataMan.com</a>
     </div>
   </div>
 
   <!-- SUMMARY -->
   <div class="section summary">
-    <div class="section-title">Professional Summary</div>
-    <p>Technical trainer and curriculum developer with 20+ years of experience delivering high-impact training and innovative course materials. Expert in leveraging Generative AI for rapid content creation, engaging presentations, and transforming technical content into accessible learning experiences. Since 2023, has developed deep expertise in Swift — co-designing courses, authoring the Lab Realism Manifesto, and designing the full-stack PantryChef application as a lab vehicle (currently under development), all under contract with BaySide Solutions at Apple. Proficient in MS SQL Server, Agile, DevOps, and Infrastructure Automation, with a strong track record of client and learner success.</p>
-  </div>
-
-  <!-- COMPETENCIES -->
-  <div class="section">
-    <div class="section-title">Core Competencies</div>
-    <div class="competencies">
-      <span class="tag">Technical Training &amp; Curriculum Design</span>
-      <span class="tag">Generative AI for Content Development</span>
-      <span class="tag">MS SQL Server Development &amp; Administration</span>
-      <span class="tag">DevOps, CI/CD &amp; Agile Methodologies</span>
-      <span class="tag new">Swift Programming (2023 → Advanced)</span>
-      <span class="tag new">Server-Side Swift &amp; Vapor Framework</span>
-      <span class="tag new">Swift Courseware Authoring &amp; Delivery</span>
-      <span class="tag new">Full-Stack App Design (PantryChef)</span>
-      <span class="tag new">Lab Realism Pedagogy</span>
-      <span class="tag new">Agentic AI Development (Claude Code)</span>
-      <span class="tag">AI Workshops &amp; Technical Presentations</span>
-      <span class="tag">Community Engagement &amp; Technology Evangelism</span>
-    </div>
+    <div class="section-title">Summary</div>
+    <p>Technical trainer and curriculum developer with 20+ years designing and delivering high-impact developer education. Currently contracting with BaySide Solutions at Apple, co-designing Swift courses and authoring the Lab Realism Manifesto — a pedagogical framework adopted across Apple's Swift education program. Expertise spans Swift server-side development, Agile, DevOps, CI/CD, SQL Server, and AI-assisted development. Known for turning complex technology into clear, engaging learning experiences at every scale.</p>
   </div>
 
   <!-- EXPERIENCE -->
   <div class="section">
-    <div class="section-title">Professional Experience</div>
+    <div class="section-title">Experience</div>
 
-    <!-- BaySide Solutions / Apple -->
     <div class="job">
       <div class="job-header">
-        <div>
-          <div class="job-company">BaySide Solutions (Apple — ASE Swift Ecosystem Education)</div>
-          <div class="job-title">Swift Curriculum Developer &amp; Instructor <span class="new-label">NEW</span></div>
+        <div class="job-left">
+          <span class="job-company">BaySide Solutions &nbsp;·&nbsp; Apple — ASE Swift Ecosystem Education</span><br>
+          <span class="job-title">Swift Curriculum Developer &amp; Instructor</span>
         </div>
-        <div class="job-dates">2025 – Present &nbsp;<span style="color:#888;font-size:11px;">(Swift work began 2023)</span></div>
+        <div class="job-dates">2025 – Present &nbsp;(Swift work began 2023)</div>
       </div>
       <ul>
-        <li>Co-creating and delivering a six-course Swift education program through the Apple PenPal platform, targeting developers transitioning from other languages to Swift on Server.</li>
-        <li><strong>Swift Language Fundamentals (101)</strong> — Made major content updates, reformatting, and lab instruction revisions to this 9-hour, 3-session instructor-led course; delivered to multiple cohorts. <span class="upd-badge">UPDATED &amp; DELIVERED</span></li>
-        <li><strong>Swift for Server Developers (101)</strong> — Co-designed this 6-hour course teaching Swift essentials through server-focused PantryChef labs (HTTP clients, caching, actor concurrency, generic repositories, async error handling). Currently under development; not yet delivered. <span class="new-badge">CO-DESIGNED</span> <span class="status-dev">IN DEVELOPMENT</span></li>
-        <li><strong>PantryChef Application</strong> — Designed this full-stack Swift application end-to-end as the lab vehicle (currently under development) for Swift for Server Developers: Vapor 4 backend, SwiftUI iOS app, OpenAPI 3.1 contract, Fluent/PostgreSQL, JWT auth, Amazon Fresh integration, Docker Compose. Students implement RecipeService and PantryService against a pre-built app shell, graduating as open-source contributors. <span class="new-badge">DESIGNED</span></li>
-        <li><strong>Lab Realism Manifesto</strong> — Authored this pedagogical framework requiring all PenPal course labs to produce real, shippable features in a production application rather than contrived exercises; adopted as the design standard for all future courses. <span class="new-badge">AUTHORED</span></li>
-        <li><strong>Swift Intermediate (201)</strong> — Made major updates, reformatting, and lab instruction revisions to this 6-hour course on extensions, generics, protocol-oriented design, value vs. reference semantics, and advanced closure patterns; delivered to multiple cohorts. <span class="upd-badge">UPDATED &amp; DELIVERED</span></li>
-        <li><strong>Swift Concurrency (201)</strong> — Co-authored and made major updates and reformatting to this 8–12 hour course on async/await, tasks, actor isolation, AsyncSequence, async let, and task groups. Currently under development; not yet delivered. <span class="new-badge">CO-AUTHORED</span> <span class="status-dev">IN DEVELOPMENT</span></li>
-        <li><strong>Swift Server Fundamentals (301)</strong> — Reviewed, made formatting and lab instruction edits, and delivered this 9-hour production course (Vapor, OpenAPI, Fluent ORM, Docker, OpenTelemetry); taught multiple cohorts. <span class="upd-badge">REVIEWED &amp; DELIVERED</span></li>
-        <li><strong>Agentic Development Workshop (202)</strong> — Designed and facilitated this 1-hour hands-on AI development workshop (Claude Code, CLAUDE.md, MCP agents, prompt engineering). Debut: 1,000+ registrants, 500+ live attendees; repeated 5 additional times with 80–400 attendees per session. <span class="new-badge">DESIGNED</span></li>
-        <li>All courseware built using DocC and hosted on Apple's internal GitHub enterprise. TDD and Swift Testing integrated throughout.</li>
+        <li>Co-designed and delivered Swift developer education program on Apple's PenPal platform; updated and taught Swift Language Fundamentals, Swift Intermediate, and Swift Server Fundamentals across multiple cohorts of Apple engineers.</li>
+        <li>Designed <strong>PantryChef</strong> — a full-stack Swift application (Vapor, SwiftUI, OpenAPI, Fluent/PostgreSQL, Docker) built as the hands-on lab vehicle for the Swift for Server Developers course, where students contribute real code to an open-source codebase.</li>
+        <li>Authored the <strong>Lab Realism Manifesto</strong> — a pedagogical framework mandating that all course labs produce real, shippable features rather than contrived exercises; adopted as the design standard across the program.</li>
+        <li>Co-authored Swift Concurrency and co-designed Swift for Server Developers courses, both currently in development.</li>
+        <li>Designed and facilitated the Agentic Development Workshop — debut session drew 1,000+ registrants (500+ live); repeated 5 additional times with 80–400 attendees each.</li>
       </ul>
     </div>
 
-    <div class="divider"></div>
-
-    <!-- PDM -->
     <div class="job">
       <div class="job-header">
-        <div>
-          <div class="job-company">Professional Data Management</div>
-          <div class="job-title">President</div>
+        <div class="job-left">
+          <span class="job-company">Professional Data Management</span><br>
+          <span class="job-title">President</span>
         </div>
         <div class="job-dates">May 2002 – Present</div>
       </div>
       <ul>
-        <li>Delivered training for clients including NASA, Chase, ADP, and Bank of America.</li>
-        <li>Authored courses on DevOps, CI/CD, and Certified Scrum Developer.</li>
-        <li>Enhanced remote training with dynamic visuals and interactive content.</li>
-        <li>Led train-the-trainer sessions to improve client instructor performance.</li>
+        <li>Delivered technical training for NASA, Chase, ADP, and Bank of America; authored DevOps, CI/CD, and Certified Scrum Developer courseware.</li>
+        <li>Presented at Microsoft World Wide Partner Conferences hosting hands-on labs for up to 1,200 participants daily; conducted .NET college tours across 27 cities (650 students/session).</li>
+        <li>Delivered AI workshops at AfroTech for Bank of America leadership; led train-the-trainer programs improving instructor performance at client organizations.</li>
       </ul>
     </div>
 
-    <div class="divider"></div>
-
-    <!-- QuickStart -->
     <div class="job">
       <div class="job-header">
-        <div>
-          <div class="job-company">QuickStart Intelligence</div>
-          <div class="job-title">Instructor</div>
+        <div class="job-left">
+          <span class="job-company">QuickStart Intelligence</span><br>
+          <span class="job-title">Instructor</span>
         </div>
         <div class="job-dates">July 2011 – November 2014</div>
       </div>
       <ul>
-        <li>Delivered training on .NET, SQL, and SharePoint, achieving top evaluations.</li>
-        <li>Revamped course materials to enhance learner engagement.</li>
+        <li>Delivered top-rated instructor-led training on .NET, SQL Server, and SharePoint; revamped course materials to improve learner engagement and evaluation scores.</li>
       </ul>
     </div>
 
-    <div class="divider"></div>
-
-    <!-- Netdesk -->
     <div class="job">
       <div class="job-header">
-        <div>
-          <div class="job-company">Netdesk</div>
-          <div class="job-title">Development Operations Manager</div>
+        <div class="job-left">
+          <span class="job-company">Netdesk</span><br>
+          <span class="job-title">Development Operations Manager</span>
         </div>
         <div class="job-dates">1997 – 2002</div>
       </div>
       <ul>
-        <li>Managed developer instructors, ensuring effective training delivery.</li>
-        <li>Designed programs aligned with evolving industry standards.</li>
+        <li>Managed a team of developer instructors and designed training programs aligned with evolving industry standards.</li>
       </ul>
     </div>
   </div>
 
-  <!-- SWIFT PORTFOLIO -->
+  <!-- SKILLS + CERTS -->
   <div class="section">
-    <div class="section-title">Swift Courseware Portfolio — Apple PenPal Platform <span class="new-label">NEW</span></div>
-    <div class="courses">
-
-      <div class="course-card upd-course">
-        <div class="course-name">101 — Swift Language Fundamentals <span class="upd-label">UPDATED &amp; DELIVERED</span></div>
-        <div class="course-meta">Duration: 9 hrs (3 × 3-hr sessions) | Format: Instructor-led | Status: GA | Role: Major updates, reformatting &amp; delivery | Taught: Multiple cohorts</div>
-        <p>Comprehensive introduction to Swift aligned to <em>The Swift Programming Language</em> book. Covers variables, operators, collections, control flow, functions, optionals, closures, enumerations, structures, error handling, protocols, and Swift Testing. Made major content updates and lab instruction revisions prior to delivery.</p>
+    <div class="section-title">Skills &amp; Certifications</div>
+    <div class="two-col">
+      <div>
+        <dl class="skills-list">
+          <dt>Swift &amp; Server:</dt>
+          <dd>Vapor 4, OpenAPI, Fluent ORM, Swift Testing, Docker, PostgreSQL, JWT</dd>
+          <dt>AI &amp; Agentic:</dt>
+          <dd>Claude Code, MCP Agents, Prompt Engineering, GenAI-assisted development</dd>
+          <dt>DevOps:</dt>
+          <dd>Azure DevOps, Jenkins, Maven, Selenium, GitHub Actions</dd>
+          <dt>Languages:</dt>
+          <dd>Swift, SQL, C#, Java, Go</dd>
+          <dt>Other:</dt>
+          <dd>Agile, Scrum, CI/CD, Infrastructure Automation, DocC, LMS</dd>
+        </dl>
       </div>
-
-      <div class="course-card new-course">
-        <div class="course-name">101 — Swift for Server Developers <span class="new-label">CO-DESIGNED</span> <span class="status-dev">IN DEVELOPMENT</span></div>
-        <div class="course-meta">Duration: 6 hrs (2 × 3-hr sessions) | Format: Instructor-led | Status: In Development | Role: Co-designer | Not yet delivered</div>
-        <p>Co-designed server-focused Swift onboarding for backend engineers (Python, Java, Go, JS). All labs build progressively on the PantryChef application — covering Swift essentials, TDD, control flow, protocol-oriented architecture, actor-based concurrency, generic repositories, and async error handling. Students will ship real commits into the PantryChef open-source codebase upon delivery.</p>
+      <div class="cert-list">
+        <strong>Certifications</strong><br>
+        Certified Scrum Developer<br>
+        Certified Scrum Master<br>
+        Certified Product Owner<br>
+        Microsoft: C#, SQL Server, SharePoint<br>
+        MCSE &nbsp;·&nbsp; MCDBA
       </div>
-
-      <div class="course-card new-course">
-        <div class="course-name">PantryChef — Lab Application (In Development) <span class="new-label">DESIGNED</span></div>
-        <div class="course-meta">Stack: Vapor 4 · Swift 6 · SwiftUI · OpenAPI 3.1 · Fluent/PostgreSQL · JWT · Docker Compose | Role: Designer</div>
-        <p>Designed end-to-end as the lab vehicle for Swift for Server Developers (currently under development). Smart recipe management app with pantry tracking, AI-powered recipe matching, and Amazon Fresh integration. Pre-built components: JWT auth, PostgreSQL schema, Vapor app shell, OpenAPI spec, Swift-OpenAPI Generator stubs, Leaf web frontend, SwiftUI iOS app. Students implement RecipeService and PantryService, graduating as verified open-source contributors.</p>
-      </div>
-
-      <div class="course-card new-course">
-        <div class="course-name">Lab Realism Manifesto <span class="new-label">AUTHORED</span></div>
-        <div class="course-meta">Type: Pedagogical framework | Adopted as design standard for all PenPal courses</div>
-        <p>Authored the framework establishing that every course lab must produce real, shippable features in a production application — not contrived toy examples. Core principles: labs target features in a real app; students graduate as open-source contributors; the application ships to real users; all contributions are in Swift; each cohort improves the codebase. PantryChef is the first application built on this manifesto.</p>
-      </div>
-
-      <div class="course-card upd-course">
-        <div class="course-name">201 — Swift Intermediate <span class="upd-label">UPDATED &amp; DELIVERED</span></div>
-        <div class="course-meta">Duration: 6 hrs (2 × 3-hr sessions) | Format: Instructor-led or self-paced | Role: Major updates, reformatting &amp; delivery | Taught: Multiple cohorts</div>
-        <p>Advanced Swift features and architectural decision-making: extensions, value vs. reference types, generics, protocol-oriented architecture, and advanced closure patterns with capture semantics.</p>
-      </div>
-
-      <div class="course-card new-course">
-        <div class="course-name">201 — Swift Concurrency <span class="new-label">CO-AUTHORED</span> <span class="status-dev">IN DEVELOPMENT</span></div>
-        <div class="course-meta">Duration: 8–12 hrs | Format: Self-paced / Instructor-led | Role: Co-author, major updates &amp; reformatting | Not yet delivered</div>
-        <p>Structured concurrency: async/await, task management, @MainActor and actor isolation, AsyncSequence/AsyncStream, async let, and task groups. Exercises run inside Swift package test suites. Currently under development.</p>
-      </div>
-
-      <div class="course-card upd-course">
-        <div class="course-name">301 — Swift Server Fundamentals <span class="upd-label">REVIEWED &amp; DELIVERED</span></div>
-        <div class="course-meta">Duration: 9 hrs (3 × 3-hr modules) | Format: Instructor-led | Status: GA | Role: Reviewer, formatting/lab edits &amp; delivery | Taught: Multiple cohorts</div>
-        <p>Production server-side Swift: Vapor, ServiceLifecycle, OpenAPI Specification, Swift-OpenAPI Generator, Fluent ORM (SQLite + PostgreSQL), structured logging, configuration management, Docker containerization, and OpenTelemetry.</p>
-      </div>
-
-      <div class="course-card new-course">
-        <div class="course-name">202 — Agentic Development Workshop <span class="new-label">DESIGNED</span></div>
-        <div class="course-meta">Duration: 1 hr | Format: Interactive workshop (in-person / Webex) | Status: GA | Role: Designer &amp; facilitator | 6 sessions delivered</div>
-        <p>Hands-on GenAI onboarding for Swift developers: Claude Code installation, CLAUDE.md team workflow setup, MCP agents, prompt engineering, and one-shot Swift API generation. Initial session: 1,000+ registrants, 500+ live attendees. Repeated 5 additional times, 80–400 attendees per session.</p>
-      </div>
-
     </div>
-  </div>
-
-  <!-- KEY ACHIEVEMENTS -->
-  <div class="section achievements">
-    <div class="section-title">Key Achievements</div>
-    <ul>
-      <li><strong>Built Apple's Swift education curriculum</strong> — co-authored and updated 6 production courses (40+ hours of content) on the PenPal platform spanning fundamentals through server-side and AI-assisted development. <span class="new-badge">NEW</span></li>
-      <li><strong>Delivered 4 Swift courses across multiple cohorts</strong> to Apple engineering teams (Language Fundamentals, Swift Intermediate, Swift Server Fundamentals, Agentic Development Workshop). <span class="new-badge">NEW</span></li>
-      <li><strong>Designed PantryChef</strong> — full-stack Swift lab application (Vapor, SwiftUI, OpenAPI, Fluent/PostgreSQL, Docker) currently under development as the lab vehicle for Swift for Server Developers. <span class="new-badge">NEW</span></li>
-      <li><strong>Authored the Lab Realism Manifesto</strong> — pedagogical standard requiring all PenPal labs to produce real, shippable features; adopted as the design framework for all future courses. <span class="new-badge">NEW</span></li>
-      <li><strong>Agentic Development Workshop</strong> — debut session reached 1,000+ registrants (500+ live); repeated 5 additional times with 80–400 attendees each. <span class="new-badge">NEW</span></li>
-      <li>Delivered AI workshops at AfroTech for Bank of America leadership.</li>
-      <li>Created Certified Scrum Developer workshops tailored for diverse industries.</li>
-      <li>Consistently improved course content and client satisfaction; recognized for engaging training techniques and top-tier evaluations.</li>
-      <li>Presented at multiple Microsoft World Wide Partner Conferences on SharePoint, SQL Server, .NET development, requirements gathering, and solution design, hosting hands-on labs across 150+ systems for up to 1,200 participants daily.</li>
-      <li>Evangelized .NET technologies on college tours across 27 cities, engaging up to 650 students per session.</li>
-    </ul>
-  </div>
-
-  <!-- CERTIFICATIONS -->
-  <div class="section">
-    <div class="section-title">Certifications</div>
-    <div class="cert-list">
-      <span class="cert-tag">Certified Scrum Developer</span>
-      <span class="cert-tag">Certified Scrum Master</span>
-      <span class="cert-tag">Certified Product Owner</span>
-      <span class="cert-tag">Microsoft: Programming in C#</span>
-      <span class="cert-tag">Microsoft: SQL Server</span>
-      <span class="cert-tag">Microsoft: SharePoint Applications</span>
-      <span class="cert-tag">MCSE</span>
-      <span class="cert-tag">MCDBA</span>
-    </div>
-  </div>
-
-  <!-- TECHNICAL SKILLS -->
-  <div class="section">
-    <div class="section-title">Technical Skills</div>
-    <div class="skills-grid">
-      <span class="skill-label">Languages</span>
-      <span class="skill-value">Swift (2023 → Advanced, server-side focus), SQL, C#, Java, Go</span>
-      <span class="skill-label">Swift Frameworks</span>
-      <span class="skill-value">Vapor 4, Swift-OpenAPI Generator, Fluent ORM, Swift Testing, ServiceLifecycle, SwiftLog</span>
-      <span class="skill-label">Server &amp; API</span>
-      <span class="skill-value">REST, OpenAPI 3.1, Docker/Compose, PostgreSQL, SQLite, OpenTelemetry, JWT</span>
-      <span class="skill-label">AI &amp; Agentic Tools</span>
-      <span class="skill-value">Claude Code, MCP Agents, GenAI-assisted development, Prompt Engineering</span>
-      <span class="skill-label">DevOps Tools</span>
-      <span class="skill-value">Azure DevOps, Jenkins, Maven, Selenium, GitHub Actions</span>
-      <span class="skill-label">Platforms</span>
-      <span class="skill-value">macOS, Linux, Windows</span>
-      <span class="skill-label">Courseware</span>
-      <span class="skill-value">DocC, Markdown, interactive labs, Swift Package Manager, LMS integration</span>
-      <span class="skill-label">Specializations</span>
-      <span class="skill-value">Agile, DevOps pipelines, Infrastructure Automation, AI-driven course development</span>
-    </div>
-  </div>
-
-  <!-- COMMUNITY -->
-  <div class="section community">
-    <div class="section-title">Community Engagement</div>
-    <ul>
-      <li>Presented at user group meetings in San Francisco, San Antonio, and Seattle on DevOps, SharePoint, SQL Server, and .NET development.</li>
-      <li>Presented at multiple Microsoft World Wide Partner Conferences on SharePoint, SQL Server, .NET, requirements gathering, and solution design, hosting and troubleshooting hands-on labs.</li>
-      <li>Organized and conducted .NET college tours in 27 cities, fostering technology adoption through interactive sessions.</li>
-      <li>Active social media presence sharing insights on Swift, server-side development, DevOps, and AI.</li>
-    </ul>
   </div>
 
 </div>
